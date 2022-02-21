@@ -130,7 +130,7 @@
 .myCart:hover{
     /* transition: width 800ms ; */
     background-color:#a7e688;
-    border: 1px solid #035d59b0; 
+    /* border: 1px solid #035d59b0;  */
 }
 .myCart>img{
     width: 18px;
@@ -206,9 +206,6 @@
     background-color:rgba(135, 207, 235, 0.281);
     padding:5px;
     
-    
-    
-    
 }
 .para{
     text-align: center;
@@ -217,6 +214,91 @@
     font-family: sans-serif;
     height: 90%;
     /* padding:1px; */
-     
     font-weight: bold;
 }
+
+
+/* fifth part of the header done */
+
+.body-one{
+    display:flex;
+    width: 98%;
+    margin-left: 2%;
+    padding:0 1% 1% 1%;
+}
+.body-inner-one{
+    background-color:rgba(208, 255, 0, 0.404);
+    width: 30%;
+    
+    
+}
+.body-inner-one>h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top:36%;
+}
+.body-inner-one>p{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 4%;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 25px;
+}
+.body-inner-one>a>button{
+    background-color:rgba(208, 255, 0, 0.404);
+    border: 2px solid black;
+    width: 60%;
+    height: 50px;
+    border-radius:5px;
+    margin-left: 16%;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.body-inner-one>a>button:hover{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color:black;
+    color:white;
+}
+
+
+/* first part of the body done */
+
+.body-two{
+    display: flex;
+  
+    margin-left:4%;
+}
+
+.body-two>div{
+    width: 32%;
+    
+}
+.body-two>div>img{
+    width: 95%;
+}
+.body-two>div>h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+.body-two>div>p{
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 95%;
+    /* letter-spacing: .5px; */
+}
+.para1{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+}
+.para1:hover{
+    color:blue;
+    
+}
+
+/* three product of layout added */
