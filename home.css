@@ -62,7 +62,7 @@
 }
 .header-second>p{
     font-size: 15px;
-    margin-left: 20%;
+    margin-left: 27%;
     margin-top:10px;
     color:white;
     font-family:sans-serif;
@@ -175,7 +175,7 @@
 .header-option1{
     background-color:rgba(128, 128, 128, 0);
     border: none;
-    margin-left: 1%;
+    margin-left: .5%;
     color:#003953;
     font-size: 16px;
     font-family: sans-serif;
@@ -195,4 +195,28 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight:600;
+}
+
+
+/* fourth part of the header done */
+
+.header-fifth{
+    width:100%;
+    height: 35px;
+    background-color:rgba(135, 207, 235, 0.281);
+    padding:5px;
+    
+    
+    
+    
+}
+.para{
+    text-align: center;
+    color:#003953;
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 90%;
+    /* padding:1px; */
+     
+    font-weight: bold;
 }
