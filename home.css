@@ -392,3 +392,48 @@
 }
 
 /* new arrival flex part done */
+
+.shoe-div{
+    display:flex;
+    /* padding:5%;*/
+    width:95%;
+    margin:4% auto auto 3%;
+} 
+.shoe-inner-div{
+    width: 42%;
+}   
+.shoe-inner-div>h3{
+    margin-top:40%; 
+    font-size:24px;
+    font-family: sans-serif;
+    text-align:center;
+}
+.shoe-inner-div>p{
+    font-family: sans-serif;
+    text-align:center;
+    font-size:18.89px;
+}
+.shoe-inner-div-two{
+     
+    margin-left:2%;
+}
+.shoe-inner-div>a>button{
+    background-color:white;
+    border: 2px solid black;
+    width: 74.5%;
+    height: 45px;
+    border-radius:5px;
+    margin-left: 12%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.shoe-inner-div>a>button:hover{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color:black;
+    color:white;
+}
+
+/* shoe part done */
