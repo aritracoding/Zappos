@@ -346,3 +346,49 @@
     color: blue;
     text-decoration: underline;
 }
+
+/* six product part done */
+
+.flex-double{
+    margin-top:20%;
+    display:flex;
+    width: 85%;
+    margin-left: 7%;
+
+}
+.inner-flex-double{
+    padding: 5%;
+    background-image: url(https://m.media-amazon.com/images/G/01/2022/homepage2.14/COOP-SALOMON-NEW-ARRIVALS-DESKTOP-LEFT-1X-634x634.jpg);
+}
+.inner-flex-double>img{
+    margin-left:15%;
+    margin-top:20%;
+}
+.inner-flex-double>p{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.inner-flex-double>a>button{
+    background-color:yellow;
+    border: 2px solid black;
+    width: 47%;
+    height: 50px;
+    border-radius:5px;
+    margin-left: 22%;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.inner-flex-double>a>button:hover{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color:black;
+    color:white;
+}
+.inner-flex-double-two{
+    margin-left:1%;
+}
+
+/* new arrival flex part done */
