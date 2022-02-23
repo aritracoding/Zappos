@@ -480,7 +480,7 @@
     height: 450px;
     width: 100%;
     margin-left:1%;
-    
+    /* background-color:rgba(128, 128, 128, 0.062); */
 }
 /* .first-carousel>div>a{
     height: 200px;
@@ -531,7 +531,7 @@
 
 .dbl-flex{
     display:flex;
-    margin: 10% auto auto 2%;
+    margin: 10% auto auto 3%;
 }
 .dbl-inner-flex-two{
     margin: auto auto auto 3%;
@@ -563,3 +563,47 @@
     color:white;
 }
 /* another flex part added */
+
+.outer-i-container{
+    display: flex;
+    width: 100%;
+    margin:4.5% auto auto 2.5%;
+}
+.inner-i-container{
+    background-color:black;
+    width: 27%;
+    padding:2%;
+    
+}
+.inner-i-container>img{
+    width: 100%;
+    margin-top:9%;
+    
+}
+.inner-i-container>p{
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    /* justify-content:center; */
+    font-size: 18px;
+    
+}
+.inner-i-container>a>button{
+    width: 72%;
+    height: 45px;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #000000;
+    border:2px solid white;
+    border-radius:5px;
+    margin-left: 16%;
+
+}
+.inner-i-container>a>button:hover{
+    background-color:rgba(128, 128, 128, 0.253);
+    border:none;
+}
+
+/* i container part done */
