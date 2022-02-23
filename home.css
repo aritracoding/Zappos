@@ -609,8 +609,9 @@
 
 /* i container part done */
 .trend{
+    margin-top:5%;
     margin-left:5%;
-  font-family: sans-serif;  
+    font-family: sans-serif;  
 }
 .second-carousel{
     display: flex;
@@ -667,3 +668,74 @@
     
 }
 /* second carousel done */
+
+.complicated{
+    width:94%;
+    display: flex;
+    margin:5% 3% auto 3%;
+    
+}
+.complicated-inner-one{
+    
+    width:30%;
+}
+.complicated-inner-one>div>h3{
+    font-size:26px;
+    font-family: sans-serif;
+    padding-right: 5%;
+}
+.complicated-inner-one>div>a>button{
+    width: 35%;
+    height: 45px;
+    color:black;
+    background-color:white;
+    font-size: 16px;
+    font-family: sans-serif;
+    border:2px solid black;
+    border-radius:3px;
+    
+}
+.complicated-inner-one>div>a>button:hover{
+    background-color: #000000;
+    color:white;
+    font-weight: bold;
+}
+.complicated-inner-one>img{
+    width:99%;
+    margin-top: 15px;
+    height:650px;
+}
+.complicated-inner-two{
+    margin-top:2%;
+}
+.complicated-inner-two>div{
+    display:flex;
+}
+.complicated-inner-two>div>div{
+    margin-left: 3%;
+}
+
+.complicated-inner-two>div>div>div{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    height: 320px;
+    width: 220px;
+    /* margin-left:12%; */
+}
+.complicated-inner-two>div>div>div>a>img{
+    height: 295px;
+    width: 145px;
+    margin: 2% auto auto 13%;
+    
+}
+.complicated-inner-two>div>div>a{
+    text-decoration: none;
+    
+}
+.complicated-inner-two>div>div>a>p{
+    margin-left: 4%;
+}
+.complicated-inner-two>div>div>a>p:nth-child(1):hover{
+    color: blue;
+    text-decoration: underline;
+}
+/* complicated part done */
