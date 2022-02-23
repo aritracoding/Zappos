@@ -385,75 +385,276 @@
         </div>
     </div>
     <!-- i container part done -->
+
+
+    <h2 class="trend">Trending Brands</h2>
+    <div id="second_carousel" class="second-carousel">
+        <button class="btn-primary1" id="left1" onClick="buttonClickOne(-1)"><img class ="btn-img"src="https://cdn-icons-png.flaticon.com/512/54/54321.png" alt=""></button>
+        <div id="first1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/449/Nike_Header081617.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>Nike</p>
+            </a>
+        </div>
+        <div id="second1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/2154/nikekids_header.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>Nike kids</p>
+            </a>
+        </div>
+        <div id="third1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/184/ugg_header_092116.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>UGG</p>
+            </a>
+        </div>
+        <div id="fourth1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/124/vans_header_031717.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>Vans</p>
+            </a>
+        </div>
+        <div id="fifth1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/179/nb_header170922.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>New Balance</p>
+            </a>
+        </div>
+        <div id="sixth1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/164/Clarks_header030514.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>Clarks</p>
+            </a>
+        </div>
+        <div id="seventh1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/162/asics_header061206.gif" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>ASICS</p>
+            </a>
+        </div>
+        <div id="eighth1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/424/nb_header_03272014.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>New Balance Kids</p>
+            </a>
+        </div>
+        <div id="ninth1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/617/THENORTHFACE_header042619.gif" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>The North Face</p>
+            </a>
+        </div>
+        <div id="tenth1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/621/samedelman_header120213.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>Sam ELdelman</p>
+            </a>
+        </div>
+        <div id="eleventh1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/193/brooks_head-060116.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>Brooks</p>
+            </a>
+        </div>
+        <div id="twelvth1">
+            <div>
+                <a href="">
+                    <img src="https://www.zappos.com/boutiques/200/header_converse_011818.jpg" alt="">
+                </a>
+            </div>
+            <a href="">
+                <p>Converse</p>
+            </a>
+        </div>
+        <button class="btn1" id="right1" onClick="buttonClickOne(1)"><img class ="btn-img" src="https://cdn-icons-png.flaticon.com/512/860/860828.png" alt=""></button>
+    </div>
+    <!-- second carousel done -->
+
+
 </body>
 </html>
 <script>
-      var first = document.getElementById("first");
-  var second = document.getElementById("second");
-  var third = document.getElementById("third");
-  var fourth = document.getElementById("fourth");
-  var fifth = document.getElementById("fifth");
-  var sixth = document.getElementById("sixth");
-  var seventh = document.getElementById("seventh");
-  var eighth = document.getElementById("eighth");
-  var ninth = document.getElementById("ninth");
-  var tenth = document.getElementById("tenth");
-  var eleventh = document.getElementById("eleventh");
-  var twelvth = document.getElementById("twelvth");
-  var left = document.getElementById("left");
-  var right = document.getElementById("right");
+    var first = document.getElementById("first");
+    var second = document.getElementById("second");
+    var third = document.getElementById("third");
+    var fourth = document.getElementById("fourth");
+    var fifth = document.getElementById("fifth");
+    var sixth = document.getElementById("sixth");
+    var seventh = document.getElementById("seventh");
+    var eighth = document.getElementById("eighth");
+    var ninth = document.getElementById("ninth");
+    var tenth = document.getElementById("tenth");
+    var eleventh = document.getElementById("eleventh");
+    var twelvth = document.getElementById("twelvth");
+    var left = document.getElementById("left");
+    var right = document.getElementById("right");
 
-  console.log(first,second,third,fourth,fifth,sixth,seventh,eighth,ninth,tenth,eleventh,twelvth,left,right);
-  var el = 0;
-
-
-  firstCarouselRender(el);
-  function firstCarouselRender(el){
-      console.log('i',el)
-
-      if (el == 0){
-        console.log('got1');
-          left.style.display = "none";
-          right.style.display = "block"
-          first.style.display = "block";
-          second.style.display = "block";
-          third.style.display = "block";
-          fourth.style.display = "block";
-          fifth.style.display = "block";
-          sixth.style.display = "block";
-          seventh.style.display = "none";
-          eighth.style.display = "none";
-          ninth.style.display = "none";
-          tenth.style.display = "none";
-          eleventh.style.display = "none";
-          twelvth.style.display = "none";
-
-      }
+    console.log(first,second,third,fourth,fifth,sixth,seventh,eighth,ninth,tenth,eleventh,twelvth,left,right);
+    var el = 0;
 
 
-      else if(el == 1){
-        console.log('got2');
-        right.style.display = "none";
-        left.style.display = "block";
-        first.style.display = "none";
-          second.style.display = "none";
-          third.style.display = "none";
-          fourth.style.display = "none";
-          fifth.style.display = "none";
-          sixth.style.display = "none";
-          seventh.style.display = "block";
-          eighth.style.display = "block";
-          ninth.style.display = "block";
-          tenth.style.display = "block";
-          eleventh.style.display = "block";
-          twelvth.style.display = "block";
-      }
-  }
-  function buttonClick(event){
-      el = el + event;
-      console.log(el);
     firstCarouselRender(el);
-  }
+    function firstCarouselRender(el){
+        console.log('i',el)
+
+        if (el == 0){
+          console.log('got1');
+            left.style.display = "none";
+            right.style.display = "block"
+            first.style.display = "block";
+            second.style.display = "block";
+            third.style.display = "block";
+            fourth.style.display = "block";
+            fifth.style.display = "block";
+            sixth.style.display = "block";
+            seventh.style.display = "none";
+            eighth.style.display = "none";
+            ninth.style.display = "none";
+            tenth.style.display = "none";
+            eleventh.style.display = "none";
+            twelvth.style.display = "none";
+
+        }
+
+
+        else if(el == 1){
+          console.log('got2');
+          right.style.display = "none";
+          left.style.display = "block";
+          first.style.display = "none";
+            second.style.display = "none";
+            third.style.display = "none";
+            fourth.style.display = "none";
+            fifth.style.display = "none";
+            sixth.style.display = "none";
+            seventh.style.display = "block";
+            eighth.style.display = "block";
+            ninth.style.display = "block";
+            tenth.style.display = "block";
+            eleventh.style.display = "block";
+            twelvth.style.display = "block";
+        }
+    }
+    function buttonClick(event){
+        el = el + event;
+        console.log(el);
+      firstCarouselRender(el);
+    }
 
 //   first carousel part done
+
+
+var first1 = document.getElementById("first1");
+    var second1 = document.getElementById("second1");
+    var third1 = document.getElementById("third1");
+    var fourth1 = document.getElementById("fourth1");
+    var fifth1 = document.getElementById("fifth1");
+    var sixth1 = document.getElementById("sixth1");
+    var seventh1 = document.getElementById("seventh1");
+    var eighth1 = document.getElementById("eighth1");
+    var ninth1 = document.getElementById("ninth1");
+    var tenth1 = document.getElementById("tenth1");
+    var eleventh1 = document.getElementById("eleventh1");
+    var twelvth1 = document.getElementById("twelvth1");
+    var left1 = document.getElementById("left1");
+    var right1 = document.getElementById("right1");
+
+    console.log(first1,second1,third1,fourth1,fifth1,sixth1,seventh1,eighth1,ninth1,tenth1,eleventh1,twelvth1,left1,right1);
+    var el1 = 0;
+
+
+    firstCarouselRenderOne(el1);
+    function firstCarouselRenderOne(el1){
+        console.log('i',el1)
+
+        if (el1 == 0){
+          console.log('got1');
+            left1.style.display = "none";
+            right1.style.display = "block"
+            first1.style.display = "block";
+            second1.style.display = "block";
+            third1.style.display = "block";
+            fourth1.style.display = "block";
+            fifth1.style.display = "block";
+            sixth1.style.display = "block";
+            seventh1.style.display = "none";
+            eighth1.style.display = "none";
+            ninth1.style.display = "none";
+            tenth1.style.display = "none";
+            eleventh1.style.display = "none";
+            twelvth1.style.display = "none";
+
+        }
+
+
+        else if(el1 == 1){
+          console.log('got2');
+          right1.style.display = "none";
+          left1.style.display = "block";
+          first1.style.display = "none";
+            second1.style.display = "none";
+            third1.style.display = "none";
+            fourth1.style.display = "none";
+            fifth1.style.display = "none";
+            sixth1.style.display = "none";
+            seventh1.style.display = "block";
+            eighth1.style.display = "block";
+            ninth1.style.display = "block";
+            tenth1.style.display = "block";
+            eleventh1.style.display = "block";
+            twelvth1.style.display = "block";
+        }
+    }
+    function buttonClickOne(event1){
+        el1 = el1 + event1;
+        console.log(el1);
+      firstCarouselRenderOne(el1);
+    }
+
+// second carousel done
+
 </script>

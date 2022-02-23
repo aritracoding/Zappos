@@ -453,10 +453,7 @@
 
 
 }
-.btn-img{
-    
-    height: 15px;
-}
+
 .btn{
     background-color: #fff;
     border:1px solid black;
@@ -468,6 +465,10 @@
     height: 50px;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     
+}
+.btn-img{
+    
+    height: 15px;
 }
 .first-carousel{
     display: flex;
@@ -607,3 +608,62 @@
 }
 
 /* i container part done */
+.trend{
+    margin-left:5%;
+  font-family: sans-serif;  
+}
+.second-carousel{
+    display: flex;
+    width: 92%;
+    margin-right:4%;
+    margin-left:4%;
+}
+.second-carousel>div>div{
+    width: 80%;
+    height: 240px;
+   
+    /* margin-left: 8px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px; 
+}
+.second-carousel>div>div>a>img{
+    margin: 60% auto auto auto; 
+    width: 100%;
+}
+.second-carousel>div>a{
+    /* text-align: center; */
+    text-decoration: none;
+}
+.second-carousel>div>a>p{
+    margin-left:28%;
+    font-family: sans-serif;
+}
+.second-carousel>div>a>p:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.btn-primary1{
+    background-color: #fff;
+    border:1px solid black;
+    margin-top:6%;
+    width: 3%;
+    height: 40px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    z-index: 1000;
+
+
+}
+
+.btn1{
+    background-color: #fff;
+    border:1px solid black;
+    margin-top:6%;
+    border-radius: 2px;
+    margin-left: -6.5%;
+    z-index: 100;
+    width:3%;
+    height: 40px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    
+}
+/* second carousel done */
