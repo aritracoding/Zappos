@@ -527,3 +527,39 @@
     margin-left:20%;
     margin-top: 5px;
 } 
+/* first carousel done */
+
+.dbl-flex{
+    display:flex;
+    margin: 10% auto auto 2%;
+}
+.dbl-inner-flex-two{
+    margin: auto auto auto 3%;
+}
+.dbl-inner-flex-two>h2{
+    font-family: sans-serif;
+}
+.dbl-inner-flex-two>p{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-right:15%;
+}
+.dbl-inner-flex-two>a>button{
+    background-color:white;
+    border: 2px solid black;
+    width: 42%;
+    height: 45px;
+    border-radius:5px;
+    
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.dbl-inner-flex-two>a>button:hover{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color:black;
+    color:white;
+}
+/* another flex part added */
