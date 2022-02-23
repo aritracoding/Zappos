@@ -225,5 +225,199 @@
     </div>
 
     <!-- shoe part done -->
+
+
+    <h2 class="h2">Popular Items</h2>
+    <div id="first_carousel" class="first-carousel">
+        <button class="btn-primary" id="left" onClick="buttonClick(-1)"><img class ="btn-img"src="https://cdn-icons-png.flaticon.com/512/54/54321.png" alt=""></button>
+        <div id="first">
+            <a href="">
+                <img class="image" src="https://m.media-amazon.com/images/I/81nhhuo4PGL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Levi's® Womens</p>
+            <p>501® High-Rise Shorts</p>
+            <p class="price">$49.99</p>
+        </div>
+        <div id="second">
+            <a href="">
+                <img class="image" class="image" src="https://m.media-amazon.com/images/I/7184tDofJnL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Clarks</p>
+            <p>Breeze Sea</p>
+            <p class="price">$32.95</p>
+            
+        </div>
+        <div id="third">
+            <a href="">
+                <img class="image" src="https://m.media-amazon.com/images/I/717TnSndcqL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Sanuk</p>
+            <p>Yoga Joy</p>
+            <p class="price">$29.95</p>
+            
+        </div>
+        <div id="fourth">
+            <a href="">
+                <img class="image" src="https://m.media-amazon.com/images/I/81VHS1+jMCL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>SKECHERS Performance</p>
+            <p>Go Walk Max - 216170</p>
+            <p class="price">44.96</p>
+            
+        </div>
+        <div id="fifth">
+            <a href="">
+                <img class="image" src="https://m.media-amazon.com/images/I/813t42p-00L._AC_SX255_.jpg" alt="">
+               
+            </a>
+            <p>SKECHERS</p>
+            <p>Relaxed Fit Superior - Milford</p>
+            <p class="price">$42.19</p>
+            
+        </div>
+        <div id="sixth">
+            <a href="">
+                <img class="image" src="https://m.media-amazon.com/images/I/71L-44lnVVL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>adidas</p>
+            <p>Adilette Shower</p>
+            <p class="price">$24.95</p>
+            
+        </div>
+        <div id="seventh">
+            <a href="">
+                <img class="image1" src="https://m.media-amazon.com/images/I/71MAZoQ5BBL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Levi's® Womens</p>
+            <p>501® High-Rise Shorts</p>
+            <p class="price">$49.99</p>
+            
+        </div>
+        <div id="eighth">
+            <a href="">
+                <img class="image1" src="https://m.media-amazon.com/images/I/71WLVi19nPL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Under Armour</p>
+            <p>Fly By 2.0 Shorts</p>
+            <p class="price">$21.07</p>
+            
+        </div>
+        <div id="ninth">
+            <a href="">
+                <img class="image1" src="https://m.media-amazon.com/images/I/715h1Qii+KL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Levi's® Womens</p>
+            <p>710 Super Skinny</p>
+            <p class="price">$59.99</p>
+            
+        </div>
+        <div id="tenth">
+            <a href="">
+                <img class="image1" src="https://m.media-amazon.com/images/I/718zcykXYqL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Under Armour</p>
+            <p>HeatGear® Armour® High-Waisted Pocketed Leggings</p>
+            <p class="price">$49.95</p>
+            
+        </div>
+        <div id="eleventh">
+            <a href="">
+                <img class="image1" src="https://m.media-amazon.com/images/I/71ORFBW3u6L._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Levi's® Womens</p>
+            <p>501® High-Rise Shorts</p>
+            <p class="price">$36.55</p>
+           
+        </div>
+        <div id="twelvth">
+            <a href="">
+                <img class="image1" src="https://m.media-amazon.com/images/I/71qJvY8k2GL._AC_SX255_.jpg" alt="">
+                
+            </a>
+            <p>Levi's® Womens</p>
+            <p>501® High-Rise Shorts</p>
+            <p class="price">$49.99</p>
+            
+        </div>
+        <button class="btn" id="right" onClick="buttonClick(1)"><img class ="btn-img" src="https://cdn-icons-png.flaticon.com/512/860/860828.png" alt=""></button>
+    </div>
 </body>
 </html>
+<script>
+      var first = document.getElementById("first");
+  var second = document.getElementById("second");
+  var third = document.getElementById("third");
+  var fourth = document.getElementById("fourth");
+  var fifth = document.getElementById("fifth");
+  var sixth = document.getElementById("sixth");
+  var seventh = document.getElementById("seventh");
+  var eighth = document.getElementById("eighth");
+  var ninth = document.getElementById("ninth");
+  var tenth = document.getElementById("tenth");
+  var eleventh = document.getElementById("eleventh");
+  var twelvth = document.getElementById("twelvth");
+  var left = document.getElementById("left");
+  var right = document.getElementById("right");
+
+  console.log(first,second,third,fourth,fifth,sixth,seventh,eighth,ninth,tenth,eleventh,twelvth,left,right);
+  var el = 0;
+
+
+  firstCarouselRender(el);
+  function firstCarouselRender(el){
+      console.log('i',el)
+
+      if (el == 0){
+        console.log('got1');
+          left.style.display = "none";
+          right.style.display = "block"
+          first.style.display = "block";
+          second.style.display = "block";
+          third.style.display = "block";
+          fourth.style.display = "block";
+          fifth.style.display = "block";
+          sixth.style.display = "block";
+          seventh.style.display = "none";
+          eighth.style.display = "none";
+          ninth.style.display = "none";
+          tenth.style.display = "none";
+          eleventh.style.display = "none";
+          twelvth.style.display = "none";
+
+      }
+
+
+      else if(el == 1){
+        console.log('got2');
+        right.style.display = "none";
+        left.style.display = "block";
+        first.style.display = "none";
+          second.style.display = "none";
+          third.style.display = "none";
+          fourth.style.display = "none";
+          fifth.style.display = "none";
+          sixth.style.display = "none";
+          seventh.style.display = "block";
+          eighth.style.display = "block";
+          ninth.style.display = "block";
+          tenth.style.display = "block";
+          eleventh.style.display = "block";
+          twelvth.style.display = "block";
+      }
+  }
+  function buttonClick(event){
+      el = el + event;
+      console.log(el);
+    firstCarouselRender(el);
+  }
+</script>
