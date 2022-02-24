@@ -23,6 +23,7 @@
 .create{
     font-size:26px;
     font-family: sans-serif;
+    margin-top:0;
 }
 
 .form-group > div > label{
@@ -32,9 +33,10 @@
 }
 .form-group > div > input{
     width: 91%;
-    height:23px;
+    height:28px;
     border: 1px solid gray;
-    background-color: white;
+    border-radius: 3px;
+    background-color:white;
 }
 .form-group > div > input:hover{
     border: 1px solid rgb(255, 60, 0);
@@ -46,24 +48,23 @@
     font-family: sans-serif;
 }
 .orange{
-    width: 91.85%;
-    height:29px;
+    width: 92.85%;
+    height:33px;
     background-color:#001d53;
     border: none;
     color:white;
+    font-weight: bold;
+    border-radius: 3px;
 }
 .p1-block{
 
-    font-size:11px;
+    font-size:13px;
     line-height:18px;
     font-family: sans-serif;
     margin-top:15px;
 
 }
-.p1-block > span{
-    color:#001d53;
-    font-weight: 600;
-}
+
 .p1-block >span:hover{
     text-decoration:underline;
 }
@@ -77,6 +78,8 @@
     margin-left:40px;
 }
 .p3{
+    margin-left:36%;
+    color:rgb(128, 128, 128);
     margin-top: 30px;
     font-size:13px;
     font-family: sans-serif;
@@ -107,8 +110,17 @@
     font-family: sans-serif;
     /* color:#001d53; */
 }
+.last-btn{
+    width: 92.85%;
+    height:33px;
+    background-color:white;
+    font-family: sans-serif;
+    border: 2px solid #001d53;
+    border-radius: 3px;
+    color:#001d53;
+    font-weight:600;
+}
 hr{
-    
     height:2px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
