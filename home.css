@@ -823,7 +823,7 @@
     border-radius: 6px;
 }
 .inner-footer-one>button{
-    width:11%;
+    width:12%;
     height:45px;
     border-radius: 4px;
     background-color: #032c48;
@@ -835,4 +835,105 @@
 .inner-footer-one>button:hover{
     background-color:white;
     color:black;
+}
+.inner-footer-two{
+    background-color: #032c48ea;
+    margin-top:-2%;
+    display: flex;
+}
+.inner-div{
+    margin:2% 6% 5% 5%;
+}
+.inner-div>h4{
+    color:white;
+    font-family: sans-serif;
+    font-size:19px;
+}
+.inner-div>ul{
+    color:#032c48;
+}
+.inner-div>ul>li>a{
+    color:white;
+    text-decoration:none;
+    margin-left: -23%;
+    line-height:30px;
+    font-family: sans-serif;
+}
+.inner-div>ul>li>a:hover{
+    text-decoration:underline;
+}
+.outer{
+    width:20%;
+}
+.inner-div-diff{
+    width: 320px;
+    margin:12% 4% 5% 2%;
+    background-color: #154d7288;
+    height:220px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.inner-div-diff>h4{
+    color:white;
+    font-family: sans-serif;
+    font-size:19px;
+}
+.inner-div-diff>p{
+    color:white;
+    font-family: sans-serif;
+    line-height:23px;
+}
+.inner-div-diff>button{
+    width:52%;
+    height:45px;
+    border-radius: 4px;
+    background-color: #2569963d;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid white;
+}
+.inner-div-diff>button:hover{
+    background-color:white;
+    color:black;
+}
+/* .review{
+    margin-left: 115px;
+} */
+.review>h4{
+    color:white;
+    font-family: sans-serif;
+    font-size:19px;
+}
+/* .review>div>img{
+    width:5%;
+} */
+.inner-review{
+    display:flex;
+}
+.inner-review>img{
+    width:13%;
+    margin-right: 2%;
+}
+.footer-end{
+    background-color: #032c48ea;
+    margin-top:-18px;
+    height:150px;
+    
+}
+.footer-end>p:nth-child(1){
+    margin-left: 5%;
+    padding-top: 2%;
+    color:white;
+    font-family: sans-serif;
+    font-size:15px;
+}
+.footer-end>p:nth-child(1):hover {
+    text-decoration: underline;
+}
+.footer-end>p:nth-child(2){
+    margin-left: 5%;
+    color:white;
+    font-family: sans-serif;
+    font-size:15px;
 }
