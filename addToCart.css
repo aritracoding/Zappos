@@ -391,7 +391,24 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2%;
 }
-
+.mid-p{
+    display: flex;
+    margin-left:20%;
+}
+.mid-p>p{
+    margin-left:5%;
+    font-family: sans-serif;
+    color: gray;
+}
+.head{
+    margin-top:3%;
+    background-color:rgba(0, 0, 0, 0);
+    width:90%;
+}
+.head1{
+    background-color:rgba(0, 0, 0, 0);
+    width:90%;
+}
 
 
 
@@ -546,4 +563,5 @@
     font-family: sans-serif;
     font-size:15px;
 }
+
 /* full footer part added */
