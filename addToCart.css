@@ -411,6 +411,38 @@
 }
 
 
+.pr{
+    box-shadow: none;
+    display: flex;
+     width:94%;
+     padding: 1%;
+    
+}
+.pr>a{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width:20%;
+    padding:10px;
+    text-decoration: none;
+    margin-right: 7px;
+}
+.pr>a>div>img{
+    margin:15% auto 4% auto;
+}
+.pr>a>div>p:nth-child(2){
+    font-size:14px;
+    color: gray;
+}
+.pr>a>div>p:nth-child(3){
+    margin-top:-10px;
+    font-size:18px;
+    color: black;
+}
+.pr>a>div>p:nth-child(4){
+    margin-top:-10px;
+    font-size:14px;
+    color: blue;
+}
+
 
 
 
