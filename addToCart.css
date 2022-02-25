@@ -219,6 +219,49 @@
 
 /* navbar completed */
 
+.main{
+    margin-top:3%;
+    display:flex;
+}
+.inner-main-two{
+    /* border:1px solid red; */
+    margin: 0% auto auto 2%;
+    height: 700px;
+    width:50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inner-main-two>img{
+    margin-left: 2%;
+    width:96%;
+    height:80%;
+}
+.inner-main-three{
+    width: 35%;
+    margin: 0% auto auto -2%;
+    border:1px solid red;
+    height: 700px;
+    overflow:scroll;
+}
+.inner-main>ul{
+    color:white;
+}
+.inner-main>ul >li>button{
+    border:none;
+    margin-top:1%;
+}
+.inner-main>ul>li>button>img{
+    background-color: none;
+    margin-top:5%;
+    width:100%;
+}
+#last-image{
+    width:50%;
+}
+.last-btn{
+    width:5.8%;
+    height:70px;
+
+}
 
 
 
