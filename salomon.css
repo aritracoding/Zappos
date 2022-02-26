@@ -219,11 +219,12 @@
 
 .left-part{
     width:100%;
+    display: flex;
 }
 .left-inner-part{
     width:20%;
     margin-left:2%;
-    margin-right:2%;
+    /* margin-right:2%; */
 }
 .left-inner-part>h2{
     font-size: 32px;
@@ -241,8 +242,80 @@
 .left-inner-part>hr{
     width:60%;
     margin-left: 0;
+    /* background-color:rgba(0, 0, 0, 0); */
 }
 
+.right-part{
+    margin-top:5%;
+}
+.selection{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.button-group>button{
+    background-color:white;
+    height:33px;
+    width:90px;
+    border-radius:20px;
+    margin-right: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    font-family: sans-serif;
+    font-weight: bold;
+    color:#003953;
+}
+
+.flex-inner-container{
+    display: flex;
+    margin-top: 5%;
+
+}
+.flex-inner-container>a{
+    margin-right: 2%;
+    text-decoration: none;
+    padding:2%;
+    width: 22%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.flex-inner-container>a>div>img{
+    padding:10px;
+    width: 100%;
+    height: 100px;
+}
+.flex-inner-container>a>div>p:nth-child(2){
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.flex-inner-container>a>div>p:nth-child(2):hover {
+    color:#0076bd;
+    text-decoration: underline;
+}
+.flex-inner-container>a>div>p:nth-child(3){
+    color: gray;
+    font-family: sans-serif;
+    margin-top: -5%;
+    font-size:14px;
+}
+.flex-inner-container>a>div>p:nth-child(3):hover {
+    color:#0076bd;
+    text-decoration: underline;
+}
+.flex-inner-container>a>div>p:nth-child(4){
+    color:#0076bd;
+    font-family: sans-serif;
+    margin-top: -5%;
+    font-size:14px;
+}
+.flex-inner-container>a>div>p:nth-child(4):hover {
+    color:#0076bd;
+    text-decoration: underline;
+}
+
+
+.star-div{
+    display: flex;
+    width: 5%;
+}
 
 
 
